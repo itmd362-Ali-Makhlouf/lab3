@@ -199,8 +199,20 @@ html {
   line-height: 1.182em; /* 26px / ~ 120% */
   padding: 1.182em; /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
+  background-color: black; /* Background color changed to black */
+  color: #3498db; /* Text color changed to blue */
 }
 
 label {
   display: block;
+  color: #3498db; /* Label color changed to blue */
+}
+
+main {
+  width: 700px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: black; /* Background color changed to black */
 }
