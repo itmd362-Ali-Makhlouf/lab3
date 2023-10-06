@@ -16,7 +16,7 @@ body {
 
 label {
   display: block;
-  font-size: 1em;
+  font-size: 1.2em;
   color: brown;
 }
 
@@ -35,6 +35,8 @@ h1 {
   background-color: #8B0000; 
   color: beige;
   transition: background-color 0.3s ease;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1:hover {
