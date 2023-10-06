@@ -11,12 +11,12 @@ html {
 
 body {
   background-color: beige;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
 
 label {
   display: block;
-  font-size: 1em;
+  font-size: 1.5em;
   color: brown;
 }
 
@@ -31,7 +31,7 @@ h1 {
   padding: 0.75em 1 em;
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   font-weight: 600;
-  font-size: 2em;
+  font-size: 1.5em;
   background-color: #8B0000; 
   color: beige;
   transition: background-color 0.3s ease;
@@ -42,9 +42,9 @@ h1:hover {
 }
 
 p {
-  margin: 1em;
-  padding-bottom: 1.5em;
-  font-size: 1em;
+  margin: 2em;
+  padding-bottom: 2.5em;
+  font-size: 2em;
   color: brown;
 }
 
@@ -65,7 +65,7 @@ input[type="checkbox"] + label {
 }
 
 #submit {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   background-color: brown;
   color: beige;
   border: none;
