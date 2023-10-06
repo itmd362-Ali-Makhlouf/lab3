@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 
 /* Reset and Normalize CSS */
 /* ... (Same as provided) ... */
@@ -12,36 +12,44 @@ html {
   text-rendering: optimizeLegibility;
 }
 
+body {
+  background-color: beige;
+  font-family: 'Montserrat', sans-serif;
+}
+
 label {
   display: block;
-  font-family: 'Chakra Petch', 'Courier New', sans-serif;
-  font-size: 0.875em;
-  color: white;
+  font-size: 1em;
+  color: brown;
 }
 
 /* Layout Styles */
 
 #content {
   text-align: center;
-  background-color: rgb(165, 165, 168); /* Silver color */
+  background-color: beige;
 }
 
 h1 {
   margin-bottom: 1.5em;
   padding: 0.75em;
-  font-family: 'Chakra Petch', 'Courier New', cursive;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  font-size: 1.8em;
-  background-color: rgb(126, 124, 130); /* Silver color */
-  color: rgb(198, 198, 199); /* Silver color */
+  font-size: 2em;
+  background-color: #8B0000; /* Dark Red */
+  color: beige;
+  transition: background-color 0.3s ease;
+}
+
+h1:hover {
+  background-color: brown; /* Hover effect */
 }
 
 p {
   margin: 1em;
   padding-bottom: 1.5em;
-  font-family: 'Chakra Petch', 'Courier New', sans-serif;
-  font-size: 0.875em;
-  color: rgb(99, 95, 105); /* Silver color */
+  font-size: 1em;
+  color: brown;
 }
 
 input[type="checkbox"] + label {
@@ -53,7 +61,7 @@ input[type="checkbox"] + label {
 
 #input-age-verification {
   padding: 1em;
-  background-color: white;
+  background-color: beige;
 }
 
 #input-submit {
@@ -61,9 +69,17 @@ input[type="checkbox"] + label {
 }
 
 #submit {
-  font-family: 'Chakra Petch', 'Courier New', sans-serif;
-  background-color: #3498db; /* Blue color */
-  color: white;
+  font-family: 'Montserrat', sans-serif;
+  background-color: brown;
+  color: beige;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#submit:hover {
+  background-color: #8B0000; /* Dark Red Hover */
+  color: beige;
 }
 
 /* State Styles */
@@ -73,3 +89,4 @@ input[type="checkbox"] + label {
     padding-bottom: 0.7em;
   }
 }
+
