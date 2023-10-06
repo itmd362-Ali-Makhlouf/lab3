@@ -1,13 +1,8 @@
 
-/* Reset and Normalize CSS */
-/* ... (Same as provided) ... */
-
-/* Base Styles */
-
 html {
-  font-size: 1.375em; /* 22px */
-  line-height: 1.182em; /* 26px / ~ 120% */
-  padding: 1.182em; /* 26px / ~ 120% */
+  font-size: 1.375em; 
+  line-height: 1.182em; 
+  padding: 1.182em; 
   text-rendering: optimizeLegibility;
 }
 
@@ -35,13 +30,13 @@ h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   font-size: 2em;
-  background-color: #8B0000; /* Dark Red */
+  background-color: #8B0000; 
   color: beige;
   transition: background-color 0.3s ease;
 }
 
 h1:hover {
-  background-color: brown; /* Hover effect */
+  background-color: brown; 
 }
 
 p {
@@ -77,11 +72,10 @@ input[type="checkbox"] + label {
 }
 
 #submit:hover {
-  background-color: #8B0000; /* Dark Red Hover */
+  background-color: #8B0000;
   color: beige;
 }
 
-/* State Styles */
 @media screen and (min-width: 620px) {
   p {
     font-size: 1.2em;
