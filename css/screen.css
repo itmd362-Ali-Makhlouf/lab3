@@ -28,7 +28,7 @@ label {
 
 h1 {
   margin-bottom: 1.5em;
-  padding: 1em;
+  padding: 0.5em;
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   font-weight: 600;
   font-size: 2em;
@@ -41,11 +41,10 @@ h1:hover {
   background-color: brown; 
 }
 
-
 p {
   margin: 1em;
   padding-bottom: 1.5em;
-  font-size: 1em;
+  font-size: 2em;
   color: brown;
 }
 
